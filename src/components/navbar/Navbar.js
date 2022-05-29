@@ -5,8 +5,6 @@ import { useState } from 'react';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
-
-    console.log(isOpen);
     return (
         <>
             <nav className="navbar__main">
@@ -58,9 +56,7 @@ export default function Navbar() {
             <div className={`navbar__dropdown--open ${!isOpen ? 'navbar__animate' : ""}`}>
                 <ul className="navbar__list__dropdown">
                     <li>
-                        {/* <h4> */}
                         <a href="#">Roadmap</a>
-                        {/* </h4> */}
                     </li>
                     <li>
                         <a href="#">Explore</a>
