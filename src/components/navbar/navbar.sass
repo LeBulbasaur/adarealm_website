@@ -15,6 +15,7 @@
     left: 0
     top: 0
     overflow: hidden
+    z-index: 20
 
 .logo__container
     display: flex
@@ -50,3 +51,102 @@
         transition: all 0.2s ease-in-out
         &:hover
             color: $midGray
+
+.navbar__burger
+    display: none
+    cursor: pointer
+
+.navbar__dropdown--open
+    position: fixed
+    display: none
+    flex-direction: column
+    justify-content: flex-start
+    align-items: center
+    padding: 0
+    z-index: 10
+    margin-top: 64px
+    top: 0
+    left: 0
+    width: 100vw
+    height: 100vh
+    background: $darkGray
+    transition: all 0.5s ease-in-out
+
+.navbar__animate
+    transform: translateX(100%)
+
+.navbar__list__dropdown
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    gap: 5.5vh
+    padding: 0
+    width: 85%
+    margin-top: 60px
+
+    li
+        width: 100%
+        text-align: center
+        overflow-y: hidden
+
+    a
+        text-decoration: none
+        font-family: $mainFont
+        font-style: normal
+        font-weight: 500
+        font-size: 29px
+        line-height: 135%
+        color: $white
+        transition: all 0.2s ease-in-out
+        &:hover
+            color: $midGray
+
+.social__logos
+    display: flex
+    justify-content: center
+    align-items: center
+    padding: 0
+    gap: 70px
+    overflow: hidden
+
+    img
+        height: 50px
+
+.blue__button__dropdown
+    box-sizing: border-box
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    padding: 12px 4px
+    width: 100%
+    background: $lightBlue
+    transition: all 0.2s ease-in-out
+
+    font-family: $mainFont
+    font-style: normal
+    font-weight: 500
+    font-size: 28px
+    line-height: 135%
+    color: $darkGray
+    cursor: pointer
+    &:hover
+        background: #6A99DE
+
+@media screen and (max-width: 1250px)
+    .navbar__main
+        padding: 8px 20px
+    .navbar__list
+        display: none
+
+    .logo__container
+        p
+            font-size: 20px
+            line-height: 25.52px
+
+    .navbar__burger
+        display: block
+
+    .navbar__dropdown--open
+        display: flex
