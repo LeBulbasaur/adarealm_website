@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,WAAW,CAAC;EACR,UAAU,EAAE,uCAAuC,EAAE,0EAA0E;EAC/H,MAAM,EAAE,KAAK;CAAG",
+    "sources": [
+        "hero.sass",
+        "../../styles/variables.sass"
+    ],
+    "names": [],
+    "file": "hero.css"
+}

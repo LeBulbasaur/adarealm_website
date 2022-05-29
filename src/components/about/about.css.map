@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,YAAY,CAAC;EACT,UAAU,EAAE,iDAAiD;EAC7D,MAAM,EAAE,KAAK;CAAG",
+    "sources": [
+        "about.sass",
+        "../../styles/variables.sass"
+    ],
+    "names": [],
+    "file": "about.css"
+}
