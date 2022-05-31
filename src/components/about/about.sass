@@ -1,5 +1,65 @@
 @import "../../styles/variables.sass"
+@import "../../styles/buttons.sass"
 
 .about__main
+    margin-top: -1px
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    align-items: center
+
     background: linear-gradient(180deg, #F0F0F0 0%, #85B6FF 100%)
     height: 574px
+
+    img
+        object-fit: cover
+
+.about__container
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    justify-content: center
+    width: 40%
+
+    h2
+        margin-top: 0
+
+    p
+        font-family: $interFont
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 135%
+        overflow: hidden
+
+.button__div
+    overflow: hidden
+
+.learn__button
+    @extend .gray__button
+    width: 148px
+    overflow: hidden
+
+@media screen and (max-width: 1250px)
+    .about__main
+        flex-direction: column
+        height: 818px
+        img
+            width: 334px
+            height: auto
+
+    .about__container
+        width: 90%
+        flex-direction: column
+
+        h2
+            font-style: normal
+            font-weight: 600
+            font-size: 24px
+            line-height: 135%
+
+    .button__div
+        width: 100%
+        display: flex
+        flex-direction: row
+        justify-content: flex-end

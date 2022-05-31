@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAEA,AAAA,WAAW,CAAC;EACR,UAAU,EAAE,iDAAiD;EAC7D,MAAM,EAAE,KAAK;CAAG",
+    "mappings": "AAEA,AAAA,WAAW,CAAC;EACR,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,iDAAiD;EAC7D,MAAM,EAAE,KAAK;CAAG",
     "sources": [
         "news.sass",
         "../../styles/variables.sass"

@@ -1,5 +1,71 @@
 @import "../../styles/variables.sass"
 
 .hero__main
-    background: linear-gradient(0deg, #F0F0F0, #F0F0F0), linear-gradient(90deg, rgba(43, 36, 38, 0.6) 0%, rgba(43, 36, 38, 0) 100%)
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-evenly
     height: 704px
+    background: linear-gradient(0deg, #F0F0F0, #F0F0F0), linear-gradient(90deg, rgba(43, 36, 38, 0.6) 0%, rgba(43, 36, 38, 0) 100%)
+    img
+        width: 600px
+        height: 600px
+        object-fit: contain
+        transform: translatey(0px)
+        animation: float 6s ease-in-out infinite
+
+.hero__content
+    width: 622px
+    height: 300px
+    overflow: hidden
+
+    a
+        font-style: normal
+        font-weight: 500
+        font-size: 32px
+        line-height: 130%
+        letter-spacing: -0.03em
+        color: $darkGray
+
+    h1
+        font-weight: 600
+
+@keyframes float
+    0%
+        transform: translatey(0px)
+
+    50%
+        transform: translatey(-10px)
+
+    100%
+        transform: translatey(0px)
+
+@media screen and (max-width: 1250px)
+    .hero__main
+        flex-direction: column
+        height: 702px
+        img
+            height: 50%
+
+    .hero__content
+        width: 351px
+        margin-left: 1rem
+
+    .hero__title
+        font-style: normal
+        font-weight: 600
+        font-size: 48px
+        line-height: 120%
+        letter-spacing: -0.04em
+
+@media screen and (max-width: 375px)
+    .hero__content
+        width: 260px
+        margin-left: -2rem
+
+    .hero__title
+        font-style: normal
+        font-weight: 600
+        font-size: 40px
+        line-height: 120%
+        letter-spacing: -0.04em

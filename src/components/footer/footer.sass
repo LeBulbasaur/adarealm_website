@@ -1,5 +1,108 @@
 @import "../../styles/variables.sass"
 
 .footer__main
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    margin-top: -1px
     background: $darkGray
     height: 354px
+
+    p
+        font-family: $interFont
+        font-style: normal
+        font-weight: 400
+        font-size: 12px
+        line-height: 140%
+        color: #F0F0F0
+
+.footer__content
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+
+    margin-top: 30px
+    width: 80%
+
+.footer__container
+    display: flex
+    flex-direction: row
+
+.footer__about, .footer__browse
+    display: flex
+    flex-direction: column
+
+    width: 237px
+    height: 217px
+    h5
+        margin-bottom: 1.5rem
+        color: $white
+        font-weight: 500
+
+    ul
+        list-style: none
+        padding: 0
+        margin: 0
+        overflow: hidden
+        li
+            font-family: $interFont
+            font-style: normal
+            font-weight: 400
+            font-size: 14px
+            line-height: 140%
+            color: $lightGray
+            margin-bottom: 1rem
+
+.footer__contact
+    width: 237px
+    height: 217px
+    overflow: hidden
+
+    p
+        font-family: $interFont
+        font-style: normal
+        font-weight: 400
+        font-size: 14px
+        line-height: 140%
+        color: $lightGray
+        overflow: hidden
+
+    h5
+        font-weight: 500
+        margin-bottom: 1rem
+        color: $white
+
+    .footer__email
+        cursor: pointer
+        font-style: normal
+        font-weight: 500
+        font-size: 16px
+        line-height: 135%
+        color: $white
+
+.footer__social__logos
+    display: flex
+    justify-content: center
+    align-items: center
+    padding: 0
+    gap: 70px
+    overflow: hidden
+    width: 200px
+
+@media screen and (max-width: 1250px)
+    .footer__main
+        height: 569px
+
+    .footer__content
+        flex-direction: column
+        justify-content: flex-start
+        align-items: flex-start
+        width: 80%
+
+    .footer__about, .footer__browse
+        width: 159px
+
+    .footer__contact
+        margin-top: 1rem

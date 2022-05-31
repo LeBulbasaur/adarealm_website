@@ -1,5 +1,48 @@
 @import "../../styles/variables.sass"
+@import "../../styles/buttons.sass"
 
 .info__main
+    margin-top: -1px
+    display: flex
+    flex-direction: row
+    justify-content: space-evenly
+    align-items: center
+
     background: linear-gradient(180deg, #4645A4 0%, #0C1A30 100%)
     height: 584px
+
+.info__text
+    display: flex
+    flex-direction: column
+    justify-content: space-evenly
+
+    h1
+        margin-bottom: 0
+        color: $white
+
+    h3
+        font-weight: 500
+        color: $white
+
+.info__button
+    @extend .blue__button
+    width: 186px
+
+@media screen and (max-width: 1250px)
+    .info__main
+        flex-direction: column-reverse
+        height: 818px
+        img
+            width: auto
+            object-fit: cover
+
+    .info__text
+        width: 85%
+
+        h1
+            font-size: 48px
+
+        h3
+            font-size: 24px
+            font-weight: 500
+            color: $white
