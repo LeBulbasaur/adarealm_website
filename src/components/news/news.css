@@ -1,7 +1,288 @@
+.gray__button, .news__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 20px;
+  background: #2B2426;
+  border-radius: 100px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 135%;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.gray__button:hover, .news__button:hover {
+  background: #000000;
+}
+
+.gray__button__disabled {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 20px;
+  background: #707070;
+  border-radius: 100px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 135%;
+  color: #F0F0F0;
+}
+
+.blue__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 20px;
+  background: #85B6FF;
+  border-radius: 100px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 135%;
+  color: #2B2426;
+  cursor: pointer;
+}
+
+.blue__button:hover {
+  background: #6A99DE;
+}
+
+.blue__button__disabled {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 20px;
+  background: #F0F0F0;
+  border-radius: 100px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 135%;
+  color: #707070;
+}
+
 .news__main {
   margin-top: -1px;
   background: -webkit-gradient(linear, left top, left bottom, from(#85B6FF), to(#4645A4));
   background: linear-gradient(180deg, #85B6FF 0%, #4645A4 100%);
   height: 752px;
+}
+
+.news__main h2 {
+  width: 40%;
+}
+
+.news__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.news__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.news__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  width: 1300px;
+  margin-bottom: 20px;
+}
+
+.news__button__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1275px;
+}
+
+.news__button {
+  width: 148px;
+}
+
+.news__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+  gap: 12px;
+  width: 622px;
+  height: 224px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #2B2426;
+  -webkit-box-shadow: 2px 4px 8px rgba(12, 26, 48, 0.5);
+          box-shadow: 2px 4px 8px rgba(12, 26, 48, 0.5);
+  border-radius: 20px;
+}
+
+.news__box h3 {
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.news__box h4 {
+  margin: 0;
+  color: #85B6FF;
+}
+
+.news__box p {
+  margin-top: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  color: #F0F0F0;
+  overflow: hidden;
+}
+
+.news__readmore {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.news__readmore svg {
+  margin-left: 0.5rem;
+}
+
+.news__easter__egg {
+  width: 494px;
+}
+
+@media screen and (max-width: 1420px) {
+  .news__main {
+    height: auto;
+  }
+  .news__container {
+    width: 90%;
+  }
+  .news__button__container {
+    width: 90%;
+  }
+  .news__box {
+    width: 90%;
+  }
+  .news__box h3 {
+    font-size: 20px;
+  }
+  .news__box h4 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .news__main h2 {
+    font-size: 24px;
+  }
+  .news__header {
+    width: 90%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news__easter__egg {
+    width: 50%;
+  }
 }
 /*# sourceMappingURL=news.css.map */

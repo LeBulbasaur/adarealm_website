@@ -47,8 +47,8 @@ export default function Navbar() {
                 ) : (
                     <svg className="navbar__burger" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"
                         onClick={() => setIsOpen(!isOpen)}>
-                        <path d="M25.3332 6.66669L6.6665 25.3334" stroke="#F0F0F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M6.6665 6.66669L25.3332 25.3334" stroke="#F0F0F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M25.3332 6.66669L6.6665 25.3334" stroke="#F0F0F0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                        <path d="M6.6665 6.66669L25.3332 25.3334" stroke="#F0F0F0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 )}
 

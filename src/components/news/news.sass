@@ -1,6 +1,119 @@
 @import "../../styles/variables.sass"
+@import "../../styles/buttons.sass"
 
 .news__main
     margin-top: -1px
     background: linear-gradient(180deg, #85B6FF 0%, #4645A4 100%)
     height: 752px
+
+    h2
+        width: 40%
+
+.news__content
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+
+    width: 100%
+
+.news__header
+    display: flex
+    justify-content: space-around
+
+.news__container
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    gap: 20px
+    width: 1300px
+    margin-bottom: 20px
+
+.news__button__container
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    width: 1275px
+
+.news__button
+    @extend .gray__button
+    width: 148px
+
+.news__box
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    padding-left: 24px
+    padding-right: 24px
+    padding-top: 24px
+    gap: 12px
+
+    width: 622px
+    height: 224px
+    box-sizing: border-box
+
+    background: #2B2426
+    box-shadow: 2px 4px 8px rgba(12, 26, 48, 0.5)
+    border-radius: 20px
+
+    h3
+        margin: 0
+        color: $white
+
+    h4
+        margin: 0
+        color: $lightBlue
+
+    p
+        margin-top: 0
+        font-family: $interFont
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 135%
+        color: #F0F0F0
+        overflow: hidden
+
+.news__readmore
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    cursor: pointer
+    width: 100%
+
+    svg
+        margin-left: 0.5rem
+
+.news__easter__egg
+    width: 494px
+
+@media screen and (max-width: 1420px)
+    .news__main
+        height: auto
+
+    .news__container
+        width: 90%
+
+    .news__button__container
+        width: 90%
+
+    .news__box
+        width: 90%
+        h3
+            font-size: 20px
+
+        h4
+            font-size: 18px
+
+@media screen and (max-width: 1250px)
+    .news__main
+        h2
+            font-size: 24px
+
+    .news__header
+        width: 90%
+        justify-content: center
+
+    .news__easter__egg
+        width: 50%
