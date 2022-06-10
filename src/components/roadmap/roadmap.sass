@@ -31,12 +31,28 @@
     user-select: none
     // width: 100vw
 
+.left__arrow__active
+    cursor: pointer
+    transform: rotate(180deg)
+
+.right__arrow__active, .right__arrow__disabled
+    margin-right: 40px
+    margin-left: 40px
+
+.right__arrow__disabled
+    transform: rotate(180deg)
+
+.right__arrow__active
+    cursor: pointer
+
+.roadmap__arrow
+
 .card
     box-sizing: border-box
     display: flex
     flex-direction: column
     align-items: flex-start
-    margin: 0 10px
+    margin: 0 30px
     padding: 20px 40px
     gap: 12px
     width: 362px
@@ -84,7 +100,7 @@
     justify-content: center
     align-items: center
     padding-bottom: 10px
-    
+
     hr
         width: 100%
         border: 2px solid $lightBlue
@@ -99,7 +115,7 @@
 
 .react-horizontal-scrolling-menu--wrapper
     flex-wrap: wrap
-    justify-content: center
+    justify-content: flex-end
     width: 100%
 
 // .react-horizontal-scrolling-menu--separator

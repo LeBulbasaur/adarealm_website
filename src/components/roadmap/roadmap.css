@@ -55,6 +55,26 @@
           user-select: none;
 }
 
+.left__arrow__active {
+  cursor: pointer;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.right__arrow__active, .right__arrow__disabled {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.right__arrow__disabled {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.right__arrow__active {
+  cursor: pointer;
+}
+
 .card {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -68,7 +88,7 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  margin: 0 10px;
+  margin: 0 30px;
   padding: 20px 40px;
   gap: 12px;
   width: 362px;
@@ -158,9 +178,9 @@
 .react-horizontal-scrolling-menu--wrapper {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   width: 100%;
 }
 
