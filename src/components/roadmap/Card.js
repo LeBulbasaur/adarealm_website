@@ -11,28 +11,24 @@ export default function Card({ title, itemId }) {
     return (
         <div
             role="button"
-            style={{
-                border: "1px solid",
-                display: "inline-block",
-                margin: "0 10px",
-                width: "160px",
-                userSelect: "none"
-            }}
             tabIndex={0}
-            className="card"
+            className="menu__item"
         >
-            <div>
-                <div>{title}</div>
-                <div style={{ backgroundColor: visible ? "transparent" : "gray" }}>
-                    visible: {JSON.stringify(visible)}
-                </div>
+            <div className="card">
+                <h3>{title}</h3>
+                <h4>Mid January 2022</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Donec euismod, nisi vel consectetur euismod.
+                </p>
             </div>
-            <div
-                style={{
-                    backgroundColor: "bisque",
-                    height: "200px"
-                }}
-            />
+            <div className="triangle__container">
+                <div className="bottom__triangle"/>
+            </div>
+            <div className="line__container">
+                <hr />
+                <div className="line__triangle"/>
+            </div>
         </div>
     );
 }

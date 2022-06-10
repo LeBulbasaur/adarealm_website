@@ -1,8 +1,8 @@
 import "./roadmap.css"
 import { useState } from "react";
 import { ScrollMenu } from 'react-horizontal-scrolling-menu';
-import Card from "./Card";
 import { RightArrow, LeftArrow } from "./Arrows";
+import Card from "./Card";
 
 const getItems = () =>
     Array(15)
@@ -26,7 +26,7 @@ export default function Roadmap() {
                     RightArrow={RightArrow}
                     options={{
                         ratio: 0.9,
-                        // rootMargin: "5px",
+                        // rootMargin: "10px",
                         // threshold: [0.01, 0.05, 0.5, 0.75, 0.95, 1]
                     }}
                 >

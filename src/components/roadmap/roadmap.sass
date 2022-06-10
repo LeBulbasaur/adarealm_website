@@ -17,18 +17,93 @@
     width: 494px
 
 .roadmap__scroll
+    margin-top: 10px
     width: 100%
     display: flex
     justify-content: center
     align-items: center
 
+.menu__item
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    flex-direction: column
+    user-select: none
+    // width: 100vw
+
 .card
     box-sizing: border-box
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    margin: 0 10px
+    padding: 20px 40px
+    gap: 12px
+    width: 362px
+    // height: 290px
+    background: #2B2426
+    box-shadow: 2px 4px 8px #8F8F8F
+    border-radius: 20px
+
+    h3
+        color: $white
+        margin-top: 0
+        margin-bottom: 0
+
+    h4
+        color: $lightBlue
+        margin-top: 0
+        margin-bottom: 0
+
+    p
+        font-family: $interFont
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 135%
+        color: $lightGray
+
+.triangle__container
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-top: -14px
+
+.bottom__triangle
+    width: 24px
+    height: 24px
+    background: $darkGray
+    transform: rotate(-45deg)
+
+.line__container
+    width: 100%
+    margin-top: 20px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding-bottom: 10px
+    
+    hr
+        width: 100%
+        border: 2px solid $lightBlue
+        background: $lightBlue
+
+.line__triangle
+    width: 24px
+    height: 24px
+    background: $lightBlue
+    transform: rotate(-45deg)
+    margin-top: -21.5px
 
 .react-horizontal-scrolling-menu--wrapper
     flex-wrap: wrap
     justify-content: center
-    width: 80%
+    width: 100%
+
+// .react-horizontal-scrolling-menu--separator
+    // display: none
 
 .react-horizontal-scrolling-menu--scroll-container
     order: 1
