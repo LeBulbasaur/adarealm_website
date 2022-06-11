@@ -29,9 +29,6 @@ export default function Navbar() {
                         <a href="#">Collaboration</a>
                     </li>
                     <li>
-                        <a href="#">Charity</a>
-                    </li>
-                    <li>
                         <div className="blue__button">
                             Connect Wallet
                         </div>
@@ -69,9 +66,6 @@ export default function Navbar() {
                     </li>
                     <li>
                         <a href="#">Collaboration</a>
-                    </li>
-                    <li>
-                        <a href="#">Charity</a>
                     </li>
                     <li>
                         <div className="blue__button__dropdown">

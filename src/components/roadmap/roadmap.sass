@@ -4,7 +4,7 @@
     margin-top: -1px
     background: #F0F0F0
     height: 541px
-    overflow-x: hidden
+    overflow: hidden
 
     h2
         width: 40%
@@ -24,19 +24,22 @@
     align-items: center
 
 .menu__item
+    height: 383px
     display: flex
     justify-content: flex-end
     align-items: center
     flex-direction: column
     user-select: none
-    // width: 100vw
+
+.left__arrow__active, .left__arrow__disabled
+    margin-bottom: 68px
 
 .left__arrow__active
     cursor: pointer
     transform: rotate(180deg)
 
 .right__arrow__active, .right__arrow__disabled
-    margin-right: 40px
+    margin-right: 8vw
     margin-left: 40px
 
 .right__arrow__disabled
@@ -44,8 +47,6 @@
 
 .right__arrow__active
     cursor: pointer
-
-.roadmap__arrow
 
 .card
     box-sizing: border-box
@@ -56,7 +57,7 @@
     padding: 20px 40px
     gap: 12px
     width: 362px
-    // height: 290px
+    max-height: 320px
     background: #2B2426
     box-shadow: 2px 4px 8px #8F8F8F
     border-radius: 20px
@@ -117,9 +118,7 @@
     flex-wrap: wrap
     justify-content: flex-end
     width: 100%
-
-// .react-horizontal-scrolling-menu--separator
-    // display: none
+    margin-top: -100px
 
 .react-horizontal-scrolling-menu--scroll-container
     order: 1
@@ -129,6 +128,58 @@
 .react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar
     display: none
 
+// .react-horizontal-scrolling-menu--item:first-child
+//     margin-left: 50px
+
 .react-horizontal-scrolling-menu--scroll-container
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
+
+@media screen and (max-width: 1250px)
+    .roadmap__container
+        h2
+            font-style: normal
+            font-weight: 600
+            font-size: 24px
+            line-height: 135%
+            width: 90%
+
+    .card
+        padding: 20px 40px
+        width: 80%
+        max-width: 360px
+
+        h3
+            font-style: normal
+            font-weight: 500
+            font-size: 24px
+            line-height: 135%
+
+        h4
+            font-style: normal
+            font-weight: 500
+            font-size: 20px
+            line-height: 135%
+
+    .roadmap__easter__egg
+        display: none
+
+    .roadmap__arrow
+        display: none
+
+    .react-horizontal-scrolling-menu--wrapper
+        margin-top: 0
+
+    .menu__item
+        width: 100vw
+
+@media screen and (max-width: 370px)
+    .card
+
+        p
+            font-family: $interFont
+            font-style: normal
+            font-weight: 400
+            font-size: 14px
+            line-height: 135%
+            color: $lightGray

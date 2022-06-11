@@ -24,8 +24,8 @@
      object-fit: contain;
   -webkit-transform: translatey(0px);
           transform: translatey(0px);
-  -webkit-animation: float 6s ease-in-out infinite;
-          animation: float 6s ease-in-out infinite;
+  -webkit-animation: float 4s ease-in-out infinite;
+          animation: float 4s ease-in-out infinite;
 }
 
 .hero__content {
@@ -53,8 +53,8 @@
             transform: translatey(0px);
   }
   50% {
-    -webkit-transform: translatey(-10px);
-            transform: translatey(-10px);
+    -webkit-transform: translatey(-20px);
+            transform: translatey(-20px);
   }
   100% {
     -webkit-transform: translatey(0px);
@@ -68,8 +68,8 @@
             transform: translatey(0px);
   }
   50% {
-    -webkit-transform: translatey(-10px);
-            transform: translatey(-10px);
+    -webkit-transform: translatey(-20px);
+            transform: translatey(-20px);
   }
   100% {
     -webkit-transform: translatey(0px);
