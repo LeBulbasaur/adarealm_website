@@ -1,4 +1,114 @@
+@import "../../styles/variables"
+
 .aboutsite__container
+    background-color: $lightGray
     margin-top: 64px
     overflow-x: hidden
-    height: 100vw
+    // height: 100vw
+
+    display: flex
+    justify-content: center
+
+.aboutsite__content
+    width: 85%
+    display: flex
+
+.aboutsite__questions__box
+    width: 50%
+
+    h2
+        margin: 40px 0
+
+.aboutsite__something
+    width: 50%
+    // background-color: green
+    display: flex
+    justify-content: flex-end
+    align-items: center
+
+.aboutsite__placeholder
+    max-width: 494px
+    margin: 150px 0
+    object-fit: cover
+
+.aboutsite__question__container
+    margin-bottom: 50px
+    user-select: none
+
+    h3
+        margin: 0
+        width: 100%
+        display: flex
+        justify-content: space-between
+
+        svg
+            margin: 0
+            cursor: pointer
+
+    p
+        font-family: $interFont
+        font-size: 16px
+        font-weight: 400
+        line-height: 22px
+        letter-spacing: 0em
+        text-align: left
+
+    hr
+        border: 1px solid $lightBlue
+        margin-top: 30px
+
+@media screen and (max-width: 1250px)
+    .aboutsite__content
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        margin-bottom: 50px
+
+    .aboutsite__something
+        width: 100%
+        justify-content: center
+
+    .aboutsite__questions__box
+        width: 100%
+        margin-bottom: 30px
+
+        h2
+            font-size: 32px
+            font-weight: 500
+            line-height: 42px
+            letter-spacing: -0.03em
+            text-align: left
+
+    .aboutsite__question__container
+        margin: 0
+
+        h3
+            font-size: 24px
+            font-weight: 500
+            line-height: 32px
+            letter-spacing: 0em
+            text-align: left
+
+        p
+            font-size: 16px
+            font-weight: 400
+            line-height: 22px
+            letter-spacing: 0em
+            text-align: left
+
+        hr
+            margin-top: 0
+            margin-bottom: 30px
+
+    .aboutsite__placeholder
+        margin: 0
+        width: 80%
+
+@media screen and (max-width: 420px)
+    .aboutsite__question__container
+
+        h3
+            font-size: 20px
+
+        // p
+        //     font-size: 12px
