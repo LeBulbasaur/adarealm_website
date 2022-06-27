@@ -67,7 +67,7 @@
   gap: 40px;
 }
 
-.navbar__list a {
+.navbar__list .navbar__hyperlink {
   font-family: "Inter";
   text-decoration: none;
   font-style: normal;
@@ -79,7 +79,7 @@
   transition: all 0.2s ease-in-out;
 }
 
-.navbar__list a:hover {
+.navbar__list .navbar__hyperlink:hover {
   color: #707070;
 }
 
@@ -95,9 +95,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -111,6 +111,10 @@
   background: #2B2426;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+}
+
+.navbar__dropdown--open ul {
+  margin-top: -64px;
 }
 
 .navbar__animate {

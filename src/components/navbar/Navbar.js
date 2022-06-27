@@ -2,6 +2,7 @@ import './navbar.css';
 import "../../styles/buttons.css"
 import logo from '../../assets/logo.png';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -10,23 +11,30 @@ export default function Navbar() {
             <nav className="navbar__main">
                 <div className="logo__container">
                     <img src={logo} alt="logo" />
-                    <p>ADAREALM</p>
+                    <Link to="/">
+                        <p>ADAREALM</p>
+                    </Link>
                 </div>
                 <ul className="navbar__list">
                     <li>
-                        <a href="#">Roadmap</a>
+                        <Link to="/about">
+                            <span className='navbar__hyperlink'>About Us</span>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#">Explore</a>
+                        <Link to="/collaboration">
+                            <span className='navbar__hyperlink'>Collaboration</span>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#">Whitepaper</a>
+                        <Link to="/whitepaper">
+                            <span className='navbar__hyperlink'>Whitepaper</span>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#">About Us</a>
-                    </li>
-                    <li>
-                        <a href="#">Collaboration</a>
+                        <Link to="/explore">
+                            <span className='navbar__hyperlink'>Explore</span>
+                        </Link>
                     </li>
                     <li>
                         <div className="blue__button">
@@ -53,19 +61,24 @@ export default function Navbar() {
             <div className={`navbar__dropdown--open ${!isOpen ? 'navbar__animate' : ""}`}>
                 <ul className="navbar__list__dropdown">
                     <li>
-                        <a href="#">Roadmap</a>
+                        <Link to="/about">
+                            <span className='navbar__hyperlink'>About Us</span>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#">Explore</a>
+                        <Link to="/collaboration">
+                            <span className='navbar__hyperlink'>Collaboration</span>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#">Whitepaper</a>
+                        <Link to="/whitepaper">
+                            <span className='navbar__hyperlink'>Whitepaper</span>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#">About Us</a>
-                    </li>
-                    <li>
-                        <a href="#">Collaboration</a>
+                        <Link to="/explore">
+                            <span className='navbar__hyperlink'>Explore</span>
+                        </Link>
                     </li>
                     <li>
                         <div className="blue__button__dropdown">

@@ -40,7 +40,7 @@
     padding: 0px
     gap: 40px
 
-    a
+    .navbar__hyperlink
         font-family: $interFont
         text-decoration: none
         font-style: normal
@@ -60,7 +60,7 @@
     position: fixed
     display: none
     flex-direction: column
-    justify-content: flex-start
+    justify-content: center
     align-items: center
     padding: 0
     z-index: 10
@@ -71,6 +71,8 @@
     height: 100vh
     background: $darkGray
     transition: all 0.5s ease-in-out
+    ul
+        margin-top: -64px
 
 .navbar__animate
     transform: translateX(100%)
