@@ -27,7 +27,7 @@ export default function Team() {
                         />
                         <Member
                             name="THE GOOD THE BAD AND THE UGLY"
-                            description="Early 30’s crypto enthusiast. Started in BnB Meme sector and after countless rugs ended up in the Cardano space.  Strong believer of ADA in general. But really like (C)NFT’s and most off all the communities behind them. We’re still early altough one day in crypto feels like an week."
+                            description="Early 30's crypto enthusiast. Started in BnB Meme sector and after countless rugs ended up in the Cardano space.  Strong believer of ADA in general. But really like (C)NFT’s and most off all the communities behind them. We're still early altough one day in crypto feels like an week."
                             links={{
                                 twitter: "https://twitter.com/denpa_666/status/1540620381995732992?s=20&t=qUwUmyFtrADdGWSmNj-NHg",
                                 linkedin: "https://twitter.com/denpa_666/status/1540620381995732992?s=20&t=qUwUmyFtrADdGWSmNj-NHg",
