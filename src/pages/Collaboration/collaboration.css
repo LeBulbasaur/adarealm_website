@@ -129,7 +129,7 @@
 
 .collaboration__content {
   width: 90%;
-  overflow-x: hidden;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -252,6 +252,11 @@
   }
   .collaboration__box p {
     height: auto;
+  }
+  .collaboration__list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 /*# sourceMappingURL=collaboration.css.map */

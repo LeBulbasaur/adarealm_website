@@ -27,8 +27,8 @@ export default function Navbar() {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/whitepaper">
-                            <span className='navbar__hyperlink'>Whitepaper</span>
+                        <Link to="/questions">
+                            <span className='navbar__hyperlink'>FAQ</span>
                         </Link>
                     </li>
                     <li>
@@ -71,8 +71,8 @@ export default function Navbar() {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/whitepaper">
-                            <span className='navbar__hyperlink'>Whitepaper</span>
+                        <Link to="/questions">
+                            <span className='navbar__hyperlink'>FAQ</span>
                         </Link>
                     </li>
                     <li>

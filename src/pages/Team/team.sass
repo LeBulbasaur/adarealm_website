@@ -1,0 +1,165 @@
+@import "../../styles/variables"
+@import "../..//styles/buttons"
+
+.team__container
+    margin-top: 64px
+    display: flex
+    justify-content: center
+    overflow: hidden
+
+    background-color: $lightGray
+
+.team__content
+    display: flex
+    width: 1264px
+    justify-content: center
+    align-items: flex-start
+    flex-direction: column
+
+.team__header
+    width: 100%
+    display: flex
+    flex-direction: column
+
+    h2
+        margin: 50px 0 10px 0
+
+    p
+        width: 622px
+
+.team__members__container
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    gap: 20px
+
+    width: 1264px
+    margin: 50px 0
+
+.member__container
+    position: relative
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    padding: 20px 40px
+    gap: 12px
+
+    width: 622px
+    height: 344px
+
+    background: #2B2426
+    border-radius: 20px
+    box-sizing: border-box
+
+    h4
+        font-style: normal
+        font-weight: 500
+        font-size: 24px
+        line-height: 135%
+        color: #F0F0F0
+        margin: 0
+
+    p
+        font-family: $interFont
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 135%
+        color: #F0F0F0
+        margin: 0
+
+.member__links
+    position: absolute
+    bottom: 10px
+
+    svg
+        margin: 10px 10px
+
+.team__values__container
+    width: 100%
+
+    p
+        width: 622px
+
+.team__values
+    display: flex
+    gap: 100px
+
+    width: 100%
+    height: 120px
+    margin: 50px 0 0 0
+
+.team__value
+    p
+        width: 365px
+
+.team__collabs
+    margin: 100px 0 50px 0
+
+@media screen and (max-width: 1280px)
+    .team__content
+        width: 90%
+
+    .team__header
+        h2
+            font-style: normal
+            font-weight: 500
+            font-size: 32px
+            line-height: 130%
+            letter-spacing: -0.03em
+
+        p
+            width: 100%
+            font-style: normal
+            font-weight: 400
+            font-size: 16px
+            line-height: 135%
+
+    .team__members__container
+        width: 100%
+        justify-content: center
+
+    .member__container
+        width: 100%
+        height: auto
+
+        h4
+            font-style: normal
+            font-weight: 500
+            font-size: 20px
+            line-height: 135%
+
+        p
+            font-style: normal
+            font-weight: 400
+            font-size: 16px
+            line-height: 135%
+
+    .member__links
+        position: static
+
+    .team__values__container
+        h2
+            font-style: normal
+            font-weight: 500
+            font-size: 32px
+            line-height: 130%
+            letter-spacing: -0.03em
+        p
+            width: 100%
+
+    .team__values
+        flex-direction: column
+        gap: 0
+
+        width: 90%
+        height: auto
+        margin: 0
+
+    .team__collabs
+        h2
+            font-style: normal
+            font-weight: 500
+            font-size: 32px
+            line-height: 130%
+            letter-spacing: -0.03em

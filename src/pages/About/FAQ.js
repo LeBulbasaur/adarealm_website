@@ -1,17 +1,18 @@
 import "./aboutsite.css"
+import "animate.css/animate.min.css";
 import Navbar from "../../components/navbar/Navbar"
 import Footer from "../../components/footer/Footer"
 import Question from "./Question"
 import logo from "../../assets/logo__original.png"
 
 
-export default function AboutSite() {
+export default function FAQ() {
     return (
         <div>
             <Navbar />
             <div className="aboutsite__container">
                 <div className="aboutsite__content">
-                    <div className="aboutsite__questions__box">
+                    <div className="aboutsite__questions__box animate__animated animate__fadeInLeft">
                         <h2>Frequently Asked Questions</h2>
                         <div className="aboutsite__questions__list">
                             <Question
@@ -29,7 +30,7 @@ export default function AboutSite() {
                             />
                         </div>
                     </div>
-                    <div className="aboutsite__something">
+                    <div className="aboutsite__something animate__animated animate__fadeInRight">
                         <img className="aboutsite__placeholder" src={logo} alt="adarealm logo" />
                     </div>
                 </div>
