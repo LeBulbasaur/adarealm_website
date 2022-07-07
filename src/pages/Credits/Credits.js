@@ -27,7 +27,7 @@ export default function Credits() {
                             <h4>Forest Walk by Alexander Nakarada</h4>
                         </li>
                         <li>
-                            <h4>Music promoted by https://www.chosic.com/free-music/all/</h4>
+                            <h4>Music promoted by <a href="https://www.chosic.com/free-music/all/" target="blank">https://www.chosic.com/free-music/all/</a></h4>
                         </li>
                         <li>
                             <h4>Attribution 4.0 International (CC BY 4.0)</h4>
