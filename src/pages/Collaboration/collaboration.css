@@ -114,7 +114,6 @@
 
 .collaboration__container {
   margin-top: 64px;
-  width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -124,6 +123,7 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  overflow-x: hidden;
   background-color: #F0F0F0;
 }
 

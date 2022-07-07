@@ -4,8 +4,26 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 import Navbar from "../../components/navbar/Navbar"
 import Footer from "../../components/footer/Footer"
 import Member from "./Member"
+import data from "../../data/members.json"
 
 export default function Team() {
+    window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+    });
+
+    const MembersArray = data.members.map((member, id) => {
+        return (
+            <Member
+                key={id}
+                name={member.name}
+                description={member.description}
+                links={member.links ? member.links : null}
+            />
+        )
+    })
+
     return (
         <div>
             <Navbar />
@@ -16,41 +34,7 @@ export default function Team() {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam ipsum sit amet blandit volutpat. Aliquam id erat ac massa suscipit interdum in sit amet ipsum. Phasellus imperdiet ligula vitae risus rutrum laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis, justo id sollicitudin finibus, sem tortor feugiat mi, a auctor ante enim eget eros.</p>
                     </div>
                     <div className="team__members__container animate__animated animate__fadeInRight">
-                        <Member
-                            name="Coldfusion"
-                            description="My first dip into Crypto started over 3years ago in the BSC space, this was a fantastic learning curve for me. Having experienced many aspects such as being involved in building a community, creating sustainable tokanomics and working within a team to launch a number of successful projects. My favourite role has always been my involvement with the community and networking with like minded projects. This mindset of community first brought me into the Cardano space - a space where innovation is at the forefront of development."
-                            links={{
-                                twitter: "https://twitter.com/denpa_666/status/1540620381995732992?s=20&t=qUwUmyFtrADdGWSmNj-NHg",
-                                linkedin: "https://twitter.com/denpa_666/status/1540620381995732992?s=20&t=qUwUmyFtrADdGWSmNj-NHg",
-                                facebook: "https://twitter.com/denpa_666/status/1540620381995732992?s=20&t=qUwUmyFtrADdGWSmNj-NHg"
-                            }}
-                        />
-                        <Member
-                            name="THE GOOD THE BAD AND THE UGLY"
-                            description="Early 30's crypto enthusiast. Started in BnB Meme sector and after countless rugs ended up in the Cardano space.  Strong believer of ADA in general. But really like (C)NFT’s and most off all the communities behind them. We're still early altough one day in crypto feels like an week."
-                            links={{
-                                twitter: "https://twitter.com/denpa_666/status/1540620381995732992?s=20&t=qUwUmyFtrADdGWSmNj-NHg",
-                                linkedin: "https://twitter.com/denpa_666/status/1540620381995732992?s=20&t=qUwUmyFtrADdGWSmNj-NHg",
-                                facebook: "https://twitter.com/denpa_666/status/1540620381995732992?s=20&t=qUwUmyFtrADdGWSmNj-NHg"
-                            }}
-                        />
-                        <Member
-                            name="Coldfusion"
-                            description="My first dip into Crypto started over 3years ago in the BSC space, this was a fantastic learning curve for me. Having experienced many aspects such as being involved in building a community, creating sustainable tokanomics and working within a team to launch a number of successful projects. My favourite role has always been my involvement with the community and networking with like minded projects. This mindset of community first brought me into the Cardano space - a space where innovation is at the forefront of development."
-                            links={{
-                                twitter: "https://twitter.com/denpa_666/status/1540620381995732992?s=20&t=qUwUmyFtrADdGWSmNj-NHg",
-                                linkedin: "https://twitter.com/denpa_666/status/1540620381995732992?s=20&t=qUwUmyFtrADdGWSmNj-NHg",
-                                facebook: "https://twitter.com/denpa_666/status/1540620381995732992?s=20&t=qUwUmyFtrADdGWSmNj-NHg"
-                            }}
-                        />
-                        <Member
-                            name="Coldfusion"
-                            description="My first dip into Crypto started over 3years ago in the BSC space, this was a fantastic learning curve for me. Having experienced many aspects such as being involved in building a community, creating sustainable tokanomics and working within a team to launch a number of successful projects. My favourite role has always been my involvement with the community and networking with like minded projects. This mindset of community first brought me into the Cardano space - a space where innovation is at the forefront of development."
-                        />
-                        <Member
-                            name="Coldfusion"
-                            description="My first dip into Crypto started over 3years ago in the BSC space, this was a fantastic learning curve for me. Having experienced many aspects such as being involved in building a community, creating sustainable tokanomics and working within a team to launch a number of successful projects. My favourite role has always been my involvement with the community and networking with like minded projects. This mindset of community first brought me into the Cardano space - a space where innovation is at the forefront of development."
-                        />
+                        {MembersArray}
                     </div>
                     <div className="team__values__container">
                         <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInLeft">

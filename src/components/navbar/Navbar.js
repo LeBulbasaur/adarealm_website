@@ -9,12 +9,12 @@ export default function Navbar() {
     return (
         <>
             <nav className="navbar__main">
-                <div className="logo__container">
-                    <img src={logo} alt="logo" />
-                    <Link to="/">
+                <Link to="/">
+                    <div className="logo__container">
+                        <img src={logo} alt="logo" />
                         <p>ADAREALM</p>
-                    </Link>
-                </div>
+                    </div>
+                </Link>
                 <ul className="navbar__list">
                     <li>
                         <Link to="/about">

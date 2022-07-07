@@ -247,6 +247,11 @@
   margin-left: 0.5rem;
 }
 
+.news__readmore a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 .news__easter__egg {
   width: 494px;
 }

@@ -5,6 +5,12 @@ import Footer from "../../components/footer/Footer"
 import CollabElement from "./CollabElement"
 
 export default function Collaboration() {
+    window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+    });
+
     return (
         <div>
             <Navbar />

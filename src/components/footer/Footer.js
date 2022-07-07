@@ -1,4 +1,5 @@
 import "./footer.css"
+import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
@@ -9,16 +10,24 @@ export default function Footer() {
                         <h5>About</h5>
                         <ul>
                             <li>
-                                About Us
+                                <Link to="/about">
+                                    About Us
+                                </Link>
                             </li>
                             <li>
-                                Roadmap
+                                <Link to="/collaboration">
+                                    Collaboration
+                                </Link>
                             </li>
                             <li>
-                                Whitepaper
+                                <Link to="/whitepaper">
+                                    Whitepaper
+                                </Link>
                             </li>
                             <li>
-                                FAQ
+                                <Link to="/questions">
+                                    FAQ
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -26,10 +35,15 @@ export default function Footer() {
                         <h5>Browse</h5>
                         <ul>
                             <li>
-                                Policy ID
+                                <Link to="/policy">
+
+                                    Policy ID
+                                </Link>
                             </li>
                             <li>
-                                Credits
+                                <Link to="/credits">
+                                    Credits
+                                </Link>
                             </li>
                         </ul>
                     </div>

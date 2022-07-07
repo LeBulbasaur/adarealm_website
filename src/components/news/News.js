@@ -1,9 +1,24 @@
 import "./news.css"
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 import "animate.css/animate.min.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import { Link } from "react-router-dom";
 import NewsBox from "./NewsBox"
+import data from "../../data/news.json"
 
 export default function News() {
+    const news = data.news
+
+    const NewsArray = news.slice(0, 4).map((info, id) => {
+        return (
+            <NewsBox
+                key={id}
+                title={info.title}
+                date={info.date}
+                text={info.text}
+            />
+        )
+    })
+
     return (
         <div className="news__main">
             <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInUp">
@@ -12,43 +27,14 @@ export default function News() {
                 </div>
                 <div className="news__content">
                     <div className="news__container">
-                        <NewsBox
-                            title="News #1"
-                            date="2022.10.05"
-                            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Sed euismod, urna eu tincidunt consectetur, nisi nunc euismod nisi, 
-                        eu tincidunt nisi nunc euismod nisi. Sed euismod, urna eu tincidunt 
-                        consectetur, nisi nunc euismod nisi, eu tincidunt nisi nunc euismod nisi."
-                        />
-                        <NewsBox
-                            title="News #1"
-                            date="2022.10.05"
-                            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Sed euismod, urna eu tincidunt consectetur, nisi nunc euismod nisi, 
-                        eu tincidunt nisi nunc euismod nisi. Sed euismod, urna eu tincidunt 
-                        consectetur, nisi nunc euismod nisi, eu tincidunt nisi nunc euismod nisi."
-                        />
-                        <NewsBox
-                            title="News #1"
-                            date="2022.10.05"
-                            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Sed euismod, urna eu tincidunt consectetur, nisi nunc euismod nisi, 
-                        eu tincidunt nisi nunc euismod nisi. Sed euismod, urna eu tincidunt 
-                        consectetur, nisi nunc euismod nisi, eu tincidunt nisi nunc euismod nisi."
-                        />
-                        <NewsBox
-                            title="News #1"
-                            date="2022.10.05"
-                            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Sed euismod, urna eu tincidunt consectetur, nisi nunc euismod nisi, 
-                        eu tincidunt nisi nunc euismod nisi. Sed euismod, urna eu tincidunt 
-                        consectetur, nisi nunc euismod nisi, eu tincidunt nisi nunc euismod nisi."
-                        />
+                        {NewsArray}
                     </div>
                     <div className="news__button__container">
-                        <div className="news__button">
-                            Learn more
-                        </div>
+                        <Link to="/news">
+                            <div className="news__button">
+                                Learn more
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </AnimationOnScroll>

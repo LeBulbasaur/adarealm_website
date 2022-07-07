@@ -7,6 +7,12 @@ import logo from "../../assets/logo__original.png"
 
 
 export default function FAQ() {
+    window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+    });
+
     return (
         <div>
             <Navbar />
