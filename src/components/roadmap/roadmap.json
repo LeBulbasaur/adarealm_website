@@ -1,46 +1,83 @@
 {
-    "roadmapData": [
-        {
-            "id": "1",
-            "title": "Add your favourite NFT image to your plots.",
-            "time": "Early January 2022",
-            "description": "House Skin Airdrop for Event Winners & Placing NFT Images on Plots."
-        },
-        {
-            "id": "2",
-            "title": "The Phoenix has got your back!",
-            "time": "Mid January 2022",
-            "description": "The Phoenix had spoken! A new island for *1:1 compensation for the innocents who fell prey to the others. *Based on snapshot done on 30th November 2021."
-        },
-        {
-            "id": "3",
-            "title": "Community is key!",
-            "time": "Late January into early February",
-            "description": "A central plaza - focal point for all Realm related experiences."
-        },
-        {
-            "id": "4",
-            "title": "The Phoenix has got your back!",
-            "time": "Mid January 2022",
-            "description": "House Skin Airdrop for Event Winners & Placing NFT Images on Plots."
-        },
-        {
-            "id": "5",
-            "title": "Add your favourite NFT image to your plots.",
-            "time": "Early January 2022",
-            "description": "House Skin Airdrop for Event Winners & Placing NFT Images on Plots."
-        },
-        {
-            "id": "6",
-            "title": "Add your favourite NFT image to your plots.",
-            "time": "Early January 2022",
-            "description": "House Skin Airdrop for Event Winners & Placing NFT Images on Plots."
-        },
-        {
-            "id": "7",
-            "title": "Community is key!",
-            "time": "Late January into early February",
-            "description": "A central plaza - focal point for all Realm related experiences."
-        }
-    ]
+  "roadmapData": [
+    {
+      "id": "6",
+      "title": "Add your favourite NFT image to your plots.",
+      "time": "Q1 2022",
+      "description": "House Skin Airdrop for Event Winners & Placing NFT Images on Plots."
+    },
+    {
+      "id": "2",
+      "title": "The Phoenix has got your back!",
+      "time": "Q1 2022",
+      "description": "The Phoenix had spoken! A new island for *1:1 compensation for the innocents who fell prey to the others. *Based on snapshot done on 30th November 2021."
+    },
+    {
+      "id": "1",
+      "title": "Stage 0",
+      "time": "Q1 2022",
+      "description": "Preparing Game Design Document and concepts of the game."
+    },
+    {
+      "id": "1",
+      "title": "$REALM Coin",
+      "time": "Q2 2022",
+      "description": "Adding $REALM fungible coin to the game - first airdrop."
+    },
+
+    {
+      "id": "1",
+      "title": "Stage 1.1",
+      "time": "Q2/Q3 2022",
+      "description": "Creating web frontend in Unity from scratch"
+    },
+    {
+      "id": "1",
+      "title": "Stage 1.2",
+      "time": "Q3 2022",
+      "description": "Creating a PC standalone version of the platform"
+    },
+    {
+      "id": "1",
+      "title": "Off we go!",
+      "time": "Q3 2022",
+      "description": "Introducing in game vehicles used to commute in realm"
+    },
+    {
+      "id": "1",
+      "title": "Stage 2.1",
+      "time": "Q3 & Q4 2022",
+      "description": "Avatars on Web and PC"
+    },
+    {
+      "id": "1",
+      "title": "Stage 2.2",
+      "time": "Q4 2022 & Q1 2023",
+      "description": "Parcel editor on Web and PC"
+    },
+    {
+      "id": "1",
+      "title": "Stage 2.3",
+      "time": "Q1 2023",
+      "description": "Home editor on Web and PC"
+    },
+    {
+      "id": "1",
+      "title": "Stage 2.4",
+      "time": "Q1 2023",
+      "description": "3rd parties map support"
+    },
+    {
+      "id": "1",
+      "title": "Stage 3",
+      "time": "2023 (exact time TBA)",
+      "description": "VR version on Oculus Quest"
+    },
+    {
+      "id": "1",
+      "title": "Stage 4",
+      "time": "2023 (exact time TBA)",
+      "description": "Community custom 3d models - uploading"
+    }
+  ]
 }
