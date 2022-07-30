@@ -4,32 +4,32 @@
       "id": "6",
       "title": "Add your favourite NFT image to your plots.",
       "time": "Q1 2022",
-      "description": "House Skin Airdrop for Event Winners & Placing NFT Images on Plots."
+      "description": "House Skin Airdrop for Event Winners & Placing NFT Images on Plots"
     },
     {
       "id": "2",
       "title": "The Phoenix has got your back!",
       "time": "Q1 2022",
-      "description": "The Phoenix had spoken! A new island for *1:1 compensation for the innocents who fell prey to the others. *Based on snapshot done on 30th November 2021."
+      "description": "The Phoenix had spoken! A new island for *1:1 compensation for the innocents who fell prey to the others. *Based on snapshot done on 30th November 2021"
     },
     {
       "id": "1",
       "title": "Stage 0",
       "time": "Q1 2022",
-      "description": "Preparing Game Design Document and concepts of the game."
+      "description": "Preparing Game Design Document and concepts of the game"
     },
     {
       "id": "1",
       "title": "$REALM Coin",
       "time": "Q2 2022",
-      "description": "Adding $REALM fungible coin to the game - first airdrop."
+      "description": "Adding $REALM fungible coin to the game - first airdrop"
     },
 
     {
       "id": "1",
       "title": "Stage 1.1",
       "time": "Q2/Q3 2022",
-      "description": "Creating web frontend in Unity from scratch"
+      "description": "Creating web frontend in Unity from"
     },
     {
       "id": "1",
@@ -41,7 +41,7 @@
       "id": "1",
       "title": "Off we go!",
       "time": "Q3 2022",
-      "description": "Introducing in game vehicles used to commute in realm"
+      "description": "Introducing in game vehicles used to commute in the realm"
     },
     {
       "id": "1",
@@ -63,12 +63,6 @@
     },
     {
       "id": "1",
-      "title": "Stage 2.4",
-      "time": "Q1 2023",
-      "description": "3rd parties map support"
-    },
-    {
-      "id": "1",
       "title": "Stage 3",
       "time": "2023 (exact time TBA)",
       "description": "VR version on Oculus Quest"
@@ -78,6 +72,12 @@
       "title": "Stage 4",
       "time": "2023 (exact time TBA)",
       "description": "Community custom 3d models - uploading"
+    },
+    {
+      "id": "1",
+      "title": "Marketplace",
+      "time": "Date TBA",
+      "description": "Creating Ada Realm inner marketplace in which people can trade, salle and buy assets"
     }
   ]
 }

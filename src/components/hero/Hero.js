@@ -1,5 +1,5 @@
 import "./hero.css";
-import logo from "../../assets/logo__original.png";
+import logo from "../../assets/logo_big.png";
 
 export default function Hero() {
   return (

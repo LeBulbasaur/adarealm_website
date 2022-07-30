@@ -1,19 +1,20 @@
-.gray__button, .gray__button__collab {
+.gray__button,
+.gray__button__collab {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 8px 20px;
-  background: #2B2426;
+  background: #2b2426;
   border-radius: 100px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -22,11 +23,12 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 135%;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 }
 
-.gray__button:hover, .gray__button__collab:hover {
+.gray__button:hover,
+.gray__button__collab:hover {
   background: #000000;
 }
 
@@ -36,14 +38,14 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 8px 20px;
   background: #707070;
   border-radius: 100px;
@@ -52,7 +54,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 135%;
-  color: #F0F0F0;
+  color: #f0f0f0;
 }
 
 .blue__button {
@@ -61,16 +63,16 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 8px 20px;
-  background: #85B6FF;
+  background: #85b6ff;
   border-radius: 100px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -79,12 +81,12 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 135%;
-  color: #2B2426;
+  color: #2b2426;
   cursor: pointer;
 }
 
 .blue__button:hover {
-  background: #6A99DE;
+  background: #6a99de;
 }
 
 .blue__button__disabled {
@@ -93,16 +95,16 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 8px 20px;
-  background: #F0F0F0;
+  background: #f0f0f0;
   border-radius: 100px;
   font-family: "Space Grotesk";
   font-style: normal;
@@ -118,13 +120,13 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   overflow-x: hidden;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 
 .collaboration__content {
@@ -135,8 +137,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .collaboration__header {
@@ -145,11 +147,11 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   padding: 0px;
   width: 622px;
   margin-bottom: 50px;
@@ -161,7 +163,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 135%;
-  color: #2B2426;
+  color: #2b2426;
 }
 
 .collaboration__header h2 {
@@ -173,10 +175,10 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-bottom: 30px;
 }
 
@@ -187,8 +189,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-bottom: 70px;
   padding-left: 20px;
 }
@@ -213,25 +215,32 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 20px;
   gap: 4px;
   width: 60px;
   height: 60px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
+  background-size: 60px 60px;
+
   border-radius: 20px;
+}
+
+.collaboration__img {
+  width: 70px;
+  height: 70px;
 }
 
 .gray__button__collab {
   width: 215px;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 1250px) {
@@ -255,8 +264,8 @@
   }
   .collaboration__list {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
 /*# sourceMappingURL=collaboration.css.map */
