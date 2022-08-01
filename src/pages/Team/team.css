@@ -4,16 +4,16 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 8px 20px;
-  background: #2b2426;
+  background: #2B2426;
   border-radius: 100px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -22,7 +22,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 135%;
-  color: #ffffff;
+  color: #FFFFFF;
   cursor: pointer;
 }
 
@@ -36,14 +36,14 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 8px 20px;
   background: #707070;
   border-radius: 100px;
@@ -52,7 +52,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 135%;
-  color: #f0f0f0;
+  color: #F0F0F0;
 }
 
 .blue__button {
@@ -61,16 +61,16 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 8px 20px;
-  background: #85b6ff;
+  background: #85B6FF;
   border-radius: 100px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -79,12 +79,12 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 135%;
-  color: #2b2426;
+  color: #2B2426;
   cursor: pointer;
 }
 
 .blue__button:hover {
-  background: #6a99de;
+  background: #6A99DE;
 }
 
 .blue__button__disabled {
@@ -93,16 +93,16 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 8px 20px;
-  background: #f0f0f0;
+  background: #F0F0F0;
   border-radius: 100px;
   font-family: "Space Grotesk";
   font-style: normal;
@@ -118,10 +118,10 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   overflow: hidden;
-  background-color: #f0f0f0;
+  background-color: #F0F0F0;
 }
 
 .team__content {
@@ -130,15 +130,15 @@
   display: flex;
   width: 1264px;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .team__header {
@@ -148,8 +148,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .team__header h2 {
@@ -165,10 +165,10 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 20px;
   width: 1264px;
   margin: 50px 0;
@@ -181,19 +181,19 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   padding: 20px 40px;
   gap: 12px;
   width: 622px;
   height: 344px;
-  background: #2b2426;
+  background: #2B2426;
   border-radius: 20px;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .member__container h4 {
@@ -201,7 +201,7 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 135%;
-  color: #f0f0f0;
+  color: #F0F0F0;
   margin: 0;
 }
 
@@ -211,7 +211,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 135%;
-  color: #f0f0f0;
+  color: #F0F0F0;
   margin: 0;
 }
 
@@ -271,8 +271,8 @@
   .team__members__container {
     width: 100%;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .member__container {
     width: 100%;
@@ -306,8 +306,8 @@
   .team__values {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 0;
     width: 90%;
     height: auto;

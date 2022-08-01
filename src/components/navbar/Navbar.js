@@ -20,6 +20,11 @@ export default function Navbar() {
         </Link>
         <ul className="navbar__list">
           <li>
+            <Link to="/islands">
+              <span className="navbar__hyperlink">Islands</span>
+            </Link>
+          </li>
+          <li>
             <Link to="/about">
               <span className="navbar__hyperlink">About Us</span>
             </Link>
@@ -39,14 +44,6 @@ export default function Navbar() {
               <span className="navbar__hyperlink">Explore</span>
             </Link>
           </li>
-          <li>
-            <Link to="/policy">
-              <span className="navbar__hyperlink">Policy ID</span>
-            </Link>
-          </li>
-          {/*} <li>
-            <div className="blue__button">Connect Wallet</div>
-  </li>*/}
           <li>
             <Link to="/login">
               <div className="blue__button">
@@ -126,6 +123,11 @@ export default function Navbar() {
         className={`navbar__dropdown--open ${!isOpen ? "navbar__animate" : ""}`}
       >
         <ul className="navbar__list__dropdown">
+          <li>
+            <Link to="/islands">
+              <span className="navbar__hyperlink">Islands</span>
+            </Link>
+          </li>
           <li>
             <Link to="/about">
               <span className="navbar__hyperlink">About Us</span>

@@ -1,8 +1,6 @@
 import "./team.css";
 
 export default function Member({ name, description, links }) {
-  console.log(links);
-  //   let discordName = links.discordName ?? "";
   return (
     <div className="member__container">
       <h4>

@@ -5,6 +5,7 @@ import FAQ from "./pages/About/FAQ";
 import Team from "./pages/Team/Team";
 import Collaboration from "./pages/Collaboration/Collaboration";
 import NewsSite from "./pages/News/NewsSite";
+import Islands from "./pages/Islands/Islands"
 import Whitepaper from "./pages/Whitepaper/Whitepaper";
 import Policy from "./pages/Policy/Policy";
 import Credits from "./pages/Credits/Credits";
@@ -22,6 +23,7 @@ function App() {
         <Route path="/collaboration" element={<Collaboration />} />
         <Route path="/questions" element={<FAQ />} />
         <Route path="/news" element={<NewsSite />} />
+        <Route path="/islands" element={<Islands />} />
         <Route path="/whitepaper" element={<Whitepaper />} />
         <Route path="/policy" element={<Policy />} />
         <Route path="/credits" element={<Credits />} />

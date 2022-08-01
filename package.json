@@ -12,6 +12,7 @@
     "react-animation-on-scroll": "^5.1.0",
     "react-dom": "^18.1.0",
     "react-horizontal-scrolling-menu": "^2.8.2",
+    "react-medium-image-zoom": "^4.4.3",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-slidedown": "^2.4.7",
