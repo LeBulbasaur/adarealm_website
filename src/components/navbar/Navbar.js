@@ -149,8 +149,20 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <div className="blue__button__dropdown">Connect Wallet</div>
+            <Link to="/login">
+              <div className="blue__button__dropdown">
+                {firebaseUser ? firebaseUser.email : "Login"}
+              </div>
+            </Link>
           </li>
+
+          {firebaseUser ? (
+            <li>
+              <span className="navbar__hyperlink" onClick={logoutUser}>
+                Logout
+              </span>
+            </li>
+          ) : null}
           <li>
             <div className="social__logos">
               <a href="https://discord.gg/VsMxxmTU" target="_blank">

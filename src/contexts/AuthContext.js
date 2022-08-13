@@ -116,9 +116,10 @@ export function AuthProvider({ children }) {
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged(async (user) => {
       if (user) {
-        // let userData = await getUserData(user.uid);
+        window.user = user;
         setFirebaseUser({ ...user });
       } else {
+        window.user = undefined;
         setFirebaseUser(undefined);
       }
     });
