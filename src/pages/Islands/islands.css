@@ -1,60 +1,35 @@
 .islands__container {
   margin-top: 64px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   overflow: hidden;
   background-color: #F0F0F0;
 }
 
 .islands__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 1264px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .islands__header {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .islands__header h2 {
   margin: 50px 0 10px 0;
 }
-
 .islands__header p {
   width: 622px;
 }
 
 .islands__box__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-wrap: wrap;
+  align-items: center;
   gap: 20px;
   width: 1264px;
   margin: 50px 0;
@@ -62,25 +37,16 @@
 
 .island__container {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
   padding: 20px 40px;
   width: 622px;
   height: 366px;
   background: #2B2426;
   border-radius: 20px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 .island__container h4 {
   font-style: normal;
   font-weight: 500;
@@ -89,7 +55,6 @@
   color: #F0F0F0;
   margin: 10px;
 }
-
 .island__container p {
   font-family: "Inter";
   font-style: normal;
@@ -103,17 +68,10 @@
 .island__image {
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .island__image img {
   width: 90%;
   height: 100%;
@@ -135,14 +93,11 @@
   }
   .islands__box__container {
     width: 100%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   .island__container {
     width: 100%;
-    -webkit-box-sizing: content-box;
-            box-sizing: content-box;
+    box-sizing: content-box;
   }
   .island__container h4 {
     font-style: normal;
@@ -153,5 +108,4 @@
   .island__image img {
     max-height: 292px;
   }
-}
-/*# sourceMappingURL=islands.css.map */
+}/*# sourceMappingURL=islands.css.map */

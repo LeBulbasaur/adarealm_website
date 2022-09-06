@@ -17,6 +17,7 @@ export default function Team() {
     return (
       <Member
         key={id}
+        photo={member.photo}
         name={member.name}
         description={member.description}
         links={member.links ? member.links : null}

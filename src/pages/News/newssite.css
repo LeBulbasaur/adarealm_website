@@ -2,23 +2,14 @@
   background-color: #F0F0F0;
   margin-top: 64px;
   overflow-x: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .newssite__content {
   width: 85%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   overflow: hidden;
 }
 
@@ -27,19 +18,10 @@
 }
 
 .newssite__news__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
   gap: 12px;
   margin: 20px 0 50px 0;
   overflow-x: hidden;
@@ -47,38 +29,25 @@
 
 .newssite__newsbox {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
   padding: 24px;
   width: 1006px;
   background: #2B2426;
-  -webkit-box-shadow: 2px 4px 8px rgba(12, 26, 48, 0.5);
-          box-shadow: 2px 4px 8px rgba(12, 26, 48, 0.5);
+  box-shadow: 2px 4px 8px rgba(12, 26, 48, 0.5);
   border-radius: 20px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 .newssite__newsbox h3 {
   color: #FFFFFF;
 }
-
 .newssite__newsbox h4 {
   color: #85B6FF;
 }
-
 .newssite__newsbox h3, .newssite__newsbox h4 {
   margin: 0 0 20px 0;
 }
-
 .newssite__newsbox p {
   font-family: "Inter";
   color: #FFFFFF;
@@ -86,16 +55,11 @@
 }
 
 .newsbox__readmore__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
   width: 100%;
   margin-top: 10px;
 }
-
 .newsbox__readmore__container p {
   cursor: pointer;
 }
@@ -117,5 +81,4 @@
     font-size: 16px;
     line-height: 135%;
   }
-}
-/*# sourceMappingURL=newssite.css.map */
+}/*# sourceMappingURL=newssite.css.map */

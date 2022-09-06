@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,sBAAsB,CAAC;EACnB,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,KAAK;CAAG",
-    "sources": [
-        "whitepaper.sass"
-    ],
-    "names": [],
-    "file": "whitepaper.css"
-}
+{"version":3,"sources":["whitepaper.sass","whitepaper.css"],"names":[],"mappings":"AAAA;EACI,gBAAA;EACA,kBAAA;EACA,aAAA;ACCJ","file":"whitepaper.css"}

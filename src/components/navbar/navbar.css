@@ -1,21 +1,11 @@
 .navbar__main {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   padding: 8px 40px;
-  background-color: #2b2426;
+  background-color: #2B2426;
   position: fixed;
   width: 100%;
   height: 64px;
@@ -26,47 +16,29 @@
 }
 
 .logo__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   padding: 0;
   gap: 20px;
 }
-
 .logo__container p {
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 31px;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .navbar__list {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   padding: 0px;
   gap: 40px;
 }
-
 .navbar__list .navbar__hyperlink {
   font-family: "Inter";
   text-decoration: none;
@@ -74,11 +46,10 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 135%;
-  color: #ffffff;
-  -webkit-transition: all 0.2s ease-in-out;
+  color: #FFFFFF;
   transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
-
 .navbar__list .navbar__hyperlink:hover {
   color: #707070;
 }
@@ -91,15 +62,8 @@
 .navbar__dropdown--open {
   position: fixed;
   display: none;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   padding: 0;
   z-index: 10;
@@ -108,73 +72,49 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: #2b2426;
-  -webkit-transition: all 0.5s ease-in-out;
+  background: #2B2426;
   transition: all 0.5s ease-in-out;
 }
-
 .navbar__dropdown--open ul {
   margin-top: -64px;
 }
 
 .navbar__animate {
-  -webkit-transform: translateX(100%);
   transform: translateX(100%);
 }
 
 .navbar__list__dropdown {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   gap: 5.5vh;
   padding: 0;
   width: 85%;
   margin-top: 60px;
 }
-
 .navbar__list__dropdown li {
   width: 100%;
   text-align: center;
   overflow-y: hidden;
 }
-
-.navbar__list__dropdown a,
-.navbar__list__dropdown li {
+.navbar__list__dropdown a {
   text-decoration: none;
   font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 500;
   font-size: 29px;
   line-height: 135%;
-  color: #ffffff;
-  -webkit-transition: all 0.2s ease-in-out;
+  color: #FFFFFF;
   transition: all 0.2s ease-in-out;
 }
-
-.navbar__list__dropdown a:hover,
-.navbar__list__dropdown li:hover {
+.navbar__list__dropdown a:hover {
   color: #707070;
 }
 
 .social__logos {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   padding: 0;
   gap: 70px;
@@ -182,37 +122,25 @@
 }
 
 .blue__button__dropdown {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   padding: 12px 4px;
   width: 100%;
-  background: #85b6ff;
-  -webkit-transition: all 0.2s ease-in-out;
+  background: #85B6FF;
   transition: all 0.2s ease-in-out;
   font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
   line-height: 135%;
-  color: #2b2426;
+  color: #2B2426;
   cursor: pointer;
 }
-
 .blue__button__dropdown:hover {
-  background: #6a99de;
+  background: #6A99DE;
 }
 
 @media screen and (max-width: 1250px) {
@@ -230,9 +158,6 @@
     display: block;
   }
   .navbar__dropdown--open {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
-}
-/*# sourceMappingURL=navbar.css.map */
+}/*# sourceMappingURL=navbar.css.map */

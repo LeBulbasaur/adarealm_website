@@ -1,11 +1,16 @@
 import "./team.css";
 
-export default function Member({ name, description, links }) {
+export default function Member({photo, name, description, links }) {
   return (
     <div className="member__container">
-      <h4>
-        {name} - {links ? (links.discordName ? links.discordName : "") : null}
-      </h4>
+      <div className="member__container__header">
+        <div className="member__photo">
+          <img src={photo} alt="member__photo"></img>
+        </div>
+        <h4>
+          {name} - {links ? (links.discordName ? links.discordName : "") : null}
+        </h4>
+      </div>
       <p style={{ marginBottom: "10px" }}>{description}</p>
       {links ? (
         <p className="member__links">

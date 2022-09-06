@@ -1,21 +1,11 @@
 .gray__button {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   padding: 8px 20px;
   background: #2B2426;
   border-radius: 100px;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   font-family: "Space Grotesk";
   font-style: normal;
@@ -25,25 +15,15 @@
   color: #FFFFFF;
   cursor: pointer;
 }
-
 .gray__button:hover {
   background: #000000;
 }
 
 .gray__button__disabled {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   padding: 8px 20px;
   background: #707070;
   border-radius: 100px;
@@ -56,23 +36,13 @@
 }
 
 .blue__button {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   padding: 8px 20px;
   background: #85B6FF;
   border-radius: 100px;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   font-family: "Space Grotesk";
   font-style: normal;
@@ -82,25 +52,15 @@
   color: #2B2426;
   cursor: pointer;
 }
-
 .blue__button:hover {
   background: #6A99DE;
 }
 
 .blue__button__disabled {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   padding: 8px 20px;
   background: #F0F0F0;
   border-radius: 100px;
@@ -110,5 +70,4 @@
   font-size: 20px;
   line-height: 135%;
   color: #707070;
-}
-/*# sourceMappingURL=buttons.css.map */
+}/*# sourceMappingURL=buttons.css.map */
